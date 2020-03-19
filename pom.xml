@@ -33,14 +33,14 @@
 			<version>2.1.2</version>
 		</dependency>
 
-		<dependency>
-		    <groupId>org.mariadb.jdbc</groupId>
-		    <artifactId>mariadb-java-client</artifactId>
-		    <version>2.5.4</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 		    <groupId>org.mariadb.jdbc</groupId> -->
+<!-- 		    <artifactId>mariadb-java-client</artifactId> -->
+<!-- 		    <version>2.5.4</version> -->
+<!-- 		</dependency> -->
 
 <!-- 까잡솨~~~~ -->
-<!-- 주석 더 넣자~ -->
+<!-- 주석 더 넣자 -->
 
 
 		<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
