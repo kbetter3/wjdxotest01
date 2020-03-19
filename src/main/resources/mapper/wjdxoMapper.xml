@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="kr.co.itcen.mapper.WjdxoMapper">
+	<select id="selectWjdxo" resultType="wjdxo">
+		select	no
+				, memo
+		  from	tb_wjdxo
+		  		,<bind name="tt" value=""/>
+		  ;
+	</select>
+	
+	<insert id="insertWjdxo" parameterType="wjdxo">
+		insert	into tb_wjdxo(
+			no
+			, memo
+		) values (
+			#{no }
+			, #{memo }
+		);
+	</insert>
+</mapper>
